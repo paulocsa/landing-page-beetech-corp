@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Muli:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap");
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
-
-
-
 /* fonte primaria */
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 * {
   margin: 0;
@@ -48,18 +47,9 @@ header {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.5;
-  animation: zoom 25s;
+  opacity: 0.8;
 }
 
-@keyframes zoom {
-  0% {
-    transform: scale(1.3);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 
 .banner {
   position: absolute;
@@ -93,7 +83,6 @@ header {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
-  background: #6a3093;
   background: -webkit-linear-gradient(to right, #E8a000, #f8d030);
   background: linear-gradient(to left, #E8a000, #f8d030);
   padding: 1rem 3rem;
@@ -102,6 +91,10 @@ header {
   cursor: pointer;
   opacity: 0;
   animation: moveBanner 1s 0.9s forwards;
+}
+button a{
+  color: #fff;
+
 }
 
 @keyframes moveBanner {
@@ -182,6 +175,30 @@ header {
   background-color: #262626;
   justify-content: center;
 }
+.sessao-header-beetech {
+  display: flex;
+  align-items: center;
+  background-color: #313131;
+  justify-content: center;
+}
+.sessao-header-beetech h1 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  color: #f8d030;
+  background-color: #313131;
+  border-bottom: solid 3px #eabb31;
+  margin-bottom: 1.5rem;
+}
+
+.sessao-header-beetech h4 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  color: #f8d030;
+  background-color: #262626;
+  border-bottom: solid 3px #eabb31;
+  margin-bottom: 1.5rem;
+}
+
 
 .sessao-header h1 {
   font-family: var(--font-primary);
@@ -197,6 +214,25 @@ header {
   font-size: 3rem;
   color: #f8d030;
   background-color: #262626;
+  border-bottom: solid 3px #eabb31;
+  margin-bottom: 1.5rem;
+}
+
+
+/* classe dos integrantes */
+
+
+.sessao-header-integrantes {
+  display: flex;
+  align-items: center;
+  background-color: #313131;
+  justify-content: center;
+}
+.sessao-header-integrantes h4 {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  color: #f8d030;
+  background-color: #313131;
   border-bottom: solid 3px #eabb31;
   margin-bottom: 1.5rem;
 }
@@ -240,6 +276,8 @@ header {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 2rem;
+  background-color: #313131;
+  
 }
 
 .card {
@@ -377,5 +415,82 @@ footer{
   color: #fff;
   border-radius: .3rem;
   box-shadow:  0 0.1rem 0.6rem #00000009;
+}
+.bar-links{
+  width: 50%;
+  height: 60px;
+  background-color: #232427;
+  position: fixed;
+  z-index: 1;
+  top: 15px;
+  border-bottom-right-radius:10px ;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px ;
+  border-top-left-radius: 10px;
+}
+.container-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.carrossel{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carrossel .fotos{
+  width: 500%;
+  animation: animacao 15s infinite;
+}
+
+.carrossel .fotos img{
+  width: 19.9%;
+}
+
+
+@keyframes animacao {
+  0%{margin-left: 0;}
+  20%{margin-left:0;}
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+  75%{margin-left: -300%;}
+  95%{margin-left: -300%;}
+  100%{margin-left: -400%;}
+
+}
+
+
+
+#txt1{
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #fff098;
+  top: 8px;
+  left: 7px;
+  position: relative;
+}
+#txt2{
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #fff098;
+  top: 8px;
+  left: 45px;
+  position: relative;
+}
+#txt3{
+  font-family: 'Fredoka One', cursive;
+  font-size: 2rem;
+  padding-left: 1rem;
+  color: #fff098;
+  top: 8px;
+  left: 65px;
+  position: relative;
 }
 
