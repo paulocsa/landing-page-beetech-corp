@@ -230,6 +230,7 @@ button a{
   align-items: center;
   background-color: #313131;
   justify-content: center;
+  height: 100%;
 }
 .sessao-header-integrantes h4 {
   font-family: var(--font-primary);
@@ -278,7 +279,7 @@ button a{
 .projetos {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
   background-color: #313131;
   
 }
@@ -376,7 +377,7 @@ button a{
 
 footer{
   width: 100%;
-  height: 7rem;
+  height: 6rem;
   background-color: #17181b;
   display: flex;
   justify-content: center;
@@ -420,16 +421,12 @@ footer{
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
 .bar-links{
-  width: 800px;
-  height: 60px;
+  width: 100%;
+  height: 40px;
   background-color: #232427;
   position: fixed;
   z-index: 1;
-  top: 5px;
-  border-bottom-right-radius:10px ;
-  border-bottom-left-radius: 10px;
-  border-top-right-radius: 10px ;
-  border-top-left-radius: 10px;
+  
 }
 .container-center{
   display: flex;
@@ -471,7 +468,7 @@ footer{
 
 #txt1{
   font-family: 'Fredoka One', cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 1rem;
   color: #fff098;
   top: 8px;
@@ -480,7 +477,7 @@ footer{
 }
 #txt2{
   font-family: 'Fredoka One', cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 1rem;
   color: #fff098;
   top: 8px;
@@ -489,7 +486,7 @@ footer{
 }
 #txt3{
   font-family: 'Fredoka One', cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-left: 1rem;
   color: #fff098;
   top: 8px;
@@ -497,3 +494,6 @@ footer{
   position: relative;
 }
 
+.sessao-inegrantes{
+  width: 100%;
+}
