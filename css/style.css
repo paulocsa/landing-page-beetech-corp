@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -221,7 +221,12 @@ button a{
   margin-bottom: 1.5rem;
 }
 
-
+h3{
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: 'Roboto Slab', serif;
+  color: #f0dd90;
+}
 /* classe dos integrantes */
 
 
@@ -325,7 +330,7 @@ button a{
 
 .card-info h2 {
   font-family: var(--font-primary);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #eee;
 }
