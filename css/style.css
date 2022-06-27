@@ -155,7 +155,7 @@ button a{
   width: 1200px;
   height: 500px;
   left: 60px;
-  background-color: #ecf6fc;
+  background-color: #6f7172;
   display: inline-block;
   position: absolute;
   bottom: -600px;
@@ -262,6 +262,9 @@ button a{
   font-family: var(--font-secundary);
   margin-top: 1rem;
   color: white;
+}
+.conhecimento-text p{
+  font-size: 25px;
 }
 
 .conhecimentos-img-wrapper {
@@ -420,14 +423,7 @@ footer{
   border-radius: .3rem;
   box-shadow:  0 0.1rem 0.6rem #00000009;
 }
-.bar-links{
-  width: 100%;
-  height: 40px;
-  background-color: #232427;
-  position: fixed;
-  z-index: 1;
-  
-}
+
 .container-center{
   display: flex;
   justify-content: center;
@@ -466,34 +462,55 @@ footer{
 
 
 
-#txt1{
-  font-family: 'Fredoka One', cursive;
-  font-size: 1.5rem;
-  padding-left: 1rem;
-  color: #fff098;
-  top: 8px;
-  left: 7px;
-  position: relative;
-}
-#txt2{
-  font-family: 'Fredoka One', cursive;
-  font-size: 1.5rem;
-  padding-left: 1rem;
-  color: #fff098;
-  top: 8px;
-  left: 45px;
-  position: relative;
-}
-#txt3{
-  font-family: 'Fredoka One', cursive;
-  font-size: 1.5rem;
-  padding-left: 1rem;
-  color: #fff098;
-  top: 8px;
-  left: 65px;
-  position: relative;
-}
+
 
 .sessao-inegrantes{
   width: 100%;
 }
+
+#ajust-main {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#ajust {
+  float: left;
+  left: 21%;
+  position: relative;
+}
+
+#ajust a {
+  display: block;
+  color: #f8d030;
+  text-align: center;
+  padding: 10px 60px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+  
+  
+}
+
+
+
+.bar-links{
+  width: 100%;
+  height: 40px;
+  background-color: #232427;
+  position: fixed;
+  z-index: 1;
+
+}
+
+h2{
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  color: #f8d030;
+  border: #17181b 2px;
+  margin-left: 10px;
+ 
+}
+
