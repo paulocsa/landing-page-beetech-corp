@@ -227,6 +227,12 @@ h3{
   font-family: 'Roboto Slab', serif;
   color: #f0dd90;
 }
+#ajust-h3{
+  position: relative;
+  left: 1%;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
 /* classe dos integrantes */
 
 
@@ -269,7 +275,7 @@ h3{
   color: white;
 }
 .conhecimento-text p{
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .conhecimentos-img-wrapper {
@@ -483,7 +489,7 @@ footer{
 
 #ajust {
   float: left;
-  left: 21%;
+  left: 21%;  /* testar em outros monitores */
   position: relative;
 }
 
